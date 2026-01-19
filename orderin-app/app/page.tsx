@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center w-full h-screen">
-      <h1>Orderin App by Renov</h1>
+    <div className="flex items-center justify-center w-full h-screen bg-white">
+      <h1 className="font-bold text-2xl text-black">Orderin App by Renov</h1>
     </div>
   );
   // return (
