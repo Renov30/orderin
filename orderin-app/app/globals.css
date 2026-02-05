@@ -11,6 +11,9 @@
   --hijau: #819D51;
   --item: #1E1E1E;
   --ijo-gelap: #485935;
+
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-mono: "Fira Mono", monospace;
 }
 
 @theme inline {
@@ -26,6 +29,7 @@
   --color-item: var(--item);
   --color-ijo-gelap: var(--ijo-gelap);
 
+  --font-inter: var(--font-inter);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
