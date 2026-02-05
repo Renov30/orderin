@@ -9,13 +9,13 @@ export default function Home() {
           {/* tombol navigasi dan pengaturan */}
           <div className="flex items-center">
             <div className="flex flex-col p-5 ">
-              <div className="p-5 bg-merah mb-5 rounded-xl">
+              <button className="p-5 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                    <ChevronUpIcon className="h-6 w-6 text-white"/>
-              </div>
-              <div className="p-5 bg-merah mb-5 rounded-xl">
+              </button>
+              <div className="p-5 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <Cog8ToothIcon className="h-6 w-6 text-white"/>
               </div>
-              <div className="p-5 bg-merah mb-5 rounded-xl">
+              <div className="p-5 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <ChevronDownIcon className="h-6 w-6 text-white"/>
               </div>
             </div>    
@@ -25,16 +25,16 @@ export default function Home() {
           <div>
             {/* pilihan jenis menu */}
             <div className="flex flex-wrap justify-center gap-5 py-5">
-              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-gray-600 transition ease-in-out cursor-pointer">
+              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <p className="font-bold">Makanan Berat</p>
               </button>
-              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-gray-600 transition ease-in-out cursor-pointer">
+              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <p className="font-bold">Minuman</p>
               </button>
-              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-gray-600 transition ease-in-out cursor-pointer">
+              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <p className="font-bold">Snack</p>
               </button>
-              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-gray-600 transition ease-in-out cursor-pointer">
+              <button className="bg-merah px-7 py-2 w-[200px] rounded-3xl m-2 flex flex-col items-center hover:bg-red-900 transition ease-in-out cursor-pointer">
                 <p className="font-bold">Menu Anak</p>
               </button>
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
                   <p className="text-ijo-gelap">Rp. 20.000,00</p>
                 </div>
                 <div className="p-2 flex justify-center items-center w-full ">
-                  <button className="flex items-center justify-center bg-oranye px-4 py-2 rounded-2xl w-full hover:bg-amber-700 transition ease-in-out cursor-pointer text-xl font-bold">
+                  <button className="flex items-center justify-center bg-oranye px-4 py-2 rounded-2xl w-full hover:bg-amber-600 transition ease-in-out cursor-pointer text-xl font-bold">
                   <ShoppingCartIcon className="h-6 w-6 text-white mr-2"/>
                   TAMBAH
                   </button>
