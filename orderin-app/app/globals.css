@@ -3,6 +3,7 @@
 :root {
   --background: #FFFFFF;
   --foreground: #171717;
+  /* warna custom */
   --latar: #E9E8E6;
   --putih: #FFFFFF;
   --oranye: #F49E01;
@@ -11,7 +12,7 @@
   --hijau: #819D51;
   --item: #1E1E1E;
   --ijo-gelap: #485935;
-
+  /* font custom */
   --font-inter: "Inter", system-ui, sans-serif;
   --font-mono: "Fira Mono", monospace;
 }
@@ -19,7 +20,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  
+  /* variabel warna custom */
   --color-latar: var(--latar);
   --color-putih: var(--putih);
   --color-oranye: var(--oranye);
@@ -28,12 +29,13 @@
   --color-hijau: var(--hijau);
   --color-item: var(--item);
   --color-ijo-gelap: var(--ijo-gelap);
-
+  /* variabel font custom */
   --font-inter: var(--font-inter);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* untuk dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
