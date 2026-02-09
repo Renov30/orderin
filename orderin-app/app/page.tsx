@@ -7,7 +7,7 @@ export default function Home() {
       <div className="bg-latar">
         <div className="flex justify-center">
           {/* tombol navigasi dan pengaturan */}
-          <div className="fixed left-0 flex items-center h-screen">
+          <div className="fixed left-0 flex items-center h-screen z-30">
             <div className="flex flex-col px-3">
               <button className="p-4 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                    <ChevronUpIcon className="h-7 w-7 text-white"/>
