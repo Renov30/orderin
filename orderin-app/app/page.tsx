@@ -4,10 +4,10 @@ import {ArrowDownIcon, ChevronDownIcon, ChevronUpIcon, Cog8ToothIcon, ShoppingCa
 export default function Home() {
   return (
     <div className="w-full">
-      <div className="min-h-screen">
-        <div className="container flex justify-center h-screen">
+      <div className="bg-latar">
+        <div className="flex justify-center">
           {/* tombol navigasi dan pengaturan */}
-          <div className="flex items-center">
+          <div className="flex items-center h-screen">
             <div className="flex flex-col px-3 ">
               <button className="p-4 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                    <ChevronUpIcon className="h-7 w-7 text-white"/>
@@ -21,8 +21,11 @@ export default function Home() {
             </div>    
           </div>
 
+
+
+          
           {/* jenis menu dan menu */}
-          <div>
+          <div className="">
             {/* pilihan jenis menu */}
             <div className="flex flex-wrap justify-center gap-7 py-5">
               <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
@@ -226,5 +229,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+
   );
 }
