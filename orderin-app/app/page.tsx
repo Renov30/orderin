@@ -7,8 +7,8 @@ export default function Home() {
       <div className="bg-latar">
         <div className="flex justify-center">
           {/* tombol navigasi dan pengaturan */}
-          <div className="flex items-center h-screen">
-            <div className="flex flex-col px-3 ">
+          <div className="fixed left-0 flex items-center h-screen">
+            <div className="flex flex-col px-3">
               <button className="p-4 bg-merah mb-5 rounded-xl hover:bg-red-900 transition ease-in-out cursor-pointer">
                    <ChevronUpIcon className="h-7 w-7 text-white"/>
               </button>
@@ -20,14 +20,11 @@ export default function Home() {
               </div>
             </div>    
           </div>
-
-
-
           
           {/* jenis menu dan menu */}
-          <div className="">
+          <div className="flex justify-center">
             {/* pilihan jenis menu */}
-            <div className="flex flex-wrap justify-center gap-7 py-5">
+            <div className="fixed flex flex-wrap justify-center gap-7 py-5 w-full z-20 bg-latar/70 backdrop-blur-md border-b border-abu-skeleton">
               <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
                 <p className="font-bold">Makanan Berat</p>
               </button>
@@ -42,7 +39,7 @@ export default function Home() {
               </button>
             </div>
             {/* tampilan menu yang ada */}
-            <div className="grid grid-cols-4 gap-10 px-5 py-5 w-full">
+            <div className="mt-25 grid grid-cols-4 gap-10 px-5 py-5 w-full">
               {/* card */}
               <div className="bg-putih flex flex-col items-center rounded-xl relative w-[200px]">
                 {/* diskon */}
@@ -226,9 +223,15 @@ export default function Home() {
               </div>
             </div>  
           </div>
+
+          {/* tombol keranjang */}
+          <div className="fixed absolute right-15 bottom-10 z-100">
+            <button className="text-white font-bold text-xl bg-merah px-6 py-4 rounded-2xl hover:bg-red-900 transition ease-in-out cursor-pointer flex items-center justify-center shadow-lg shadow-black/20">
+              <ShoppingCartIcon className="h-8 w-8 text-white inline-block mr-2"/>
+              KERANJANG</button>
+          </div>
         </div>
       </div>
     </div>
-
   );
 }
