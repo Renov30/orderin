@@ -4,8 +4,8 @@ import {ArrowDownIcon, ChevronDownIcon, ChevronUpIcon, Cog8ToothIcon, ShoppingCa
 export default function Home() {
   return (
     <div className="w-full">
-      <div className="min-h-screen bg-latar">
-        <div className="container mx-auto flex h-screen">
+      <div className="min-h-screen">
+        <div className="container flex justify-center h-screen">
           {/* tombol navigasi dan pengaturan */}
           <div className="flex items-center">
             <div className="flex flex-col px-3 ">
@@ -25,16 +25,16 @@ export default function Home() {
           <div>
             {/* pilihan jenis menu */}
             <div className="flex flex-wrap justify-center gap-7 py-5">
-              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer">
+              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
                 <p className="font-bold">Makanan Berat</p>
               </button>
-              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer">
+              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
                 <p className="font-bold">Minuman</p>
               </button>
-              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer">
+              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
                 <p className="font-bold">Snack</p>
               </button>
-              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer">
+              <button className="bg-merah w-40 py-2 rounded-3xl flex flex-col items-center justify-center hover:bg-red-900 transition ease-in-out cursor-pointer text-white">
                 <p className="font-bold">Menu Anak</p>
               </button>
             </div>
@@ -221,7 +221,6 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-
             </div>  
           </div>
         </div>
